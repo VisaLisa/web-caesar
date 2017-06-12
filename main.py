@@ -46,5 +46,5 @@ def encrypt():
     encrypt_rot = int(encrypt_rot)
 
     encrypted = rotate_string(text, encrypt_rot)
-    return  "<h1>" + form.format(encrypted) + "</h1>"s
+    return  form.format(encrypted)
 app.run()
